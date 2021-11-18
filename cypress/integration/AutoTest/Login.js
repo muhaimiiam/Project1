@@ -1,6 +1,6 @@
 /// reference types= "Cypress" />
 
-it("Login - Incorrect email and Correct password", function(){
+it("Login - Incorrect email", function(){
     cy.visit('http://automationpractice.com/index.php');
     cy.get('.login').click();
     cy.get('#email').type('testmu002@mailinator.com');
