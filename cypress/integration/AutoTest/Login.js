@@ -21,5 +21,3 @@ it("Login - Correct email & password", function(){
     cy.get('#SubmitLogin > span').click();
     cy.get('.logout').click();
 })
-
-
